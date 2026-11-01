@@ -25,3 +25,7 @@ app.use('/api/admin', adminRoutes); // every route requires the admin cookie
 
 app.use(notFound);
 app.use(errorHandler);
+
+
+
+export default app;  
