@@ -1,4 +1,4 @@
-const bcrypt = require('bcryptjs');
+import bcrypt from 'bcryptjs';
 import { z } from 'zod';
 import { Profile, Setting, Resume, Message } from '../models/Singletons.js';
 import { GalleryImage, Project } from '../models/Collections.js';
